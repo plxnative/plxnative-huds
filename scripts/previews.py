@@ -12,7 +12,7 @@ from urllib.request import build_opener
 from urllib.error import URLError
 import sys
 from catalog import Invalid, canonical, oldest, packages, public_origin, read_json, require_sources, revoked
-from simulator import SecureRedirect, Simulator, acquire, toolchains
+from simulator import APP_OWNERS, PREVIOUS_APP_OWNERS, SecureRedirect, Simulator, acquire, toolchains
 import preview_media
 
 
@@ -118,8 +118,8 @@ def published(sim, package, directory, base_url):
         return True
 
 
-def render(root, cache, output, snapshot=Path("out/packages"), previous_snapshot=None, previous_previews=None, local=None, only=None, reuse_url=None):
-    pins = toolchains(root)
+def render(root, cache, output, snapshot=Path("out/packages"), previous_snapshot=None, previous_previews=None, local=None, only=None, reuse_url=None, owners=APP_OWNERS):
+    pins = toolchains(root, owners)
     rejected = {item["sha256"] for item in revoked(root)}
     before = {p.id: p for p in packages(previous_snapshot)} if previous_snapshot else {}
     candidates = packages(snapshot)
@@ -179,8 +179,11 @@ def main():
     parser.add_argument("--local-simulator", type=Path)
     parser.add_argument("--package")
     parser.add_argument("--reuse-url")
+    parser.add_argument("--baseline", action="store_true",
+                        help="ROOT is the previous tree; its pins may still name the app's earlier owner")
     args = parser.parse_args()
-    render(args.root, args.cache, args.out, args.packages, args.previous_packages, args.previous_previews, args.local_simulator, args.package, args.reuse_url)
+    render(args.root, args.cache, args.out, args.packages, args.previous_packages, args.previous_previews, args.local_simulator, args.package, args.reuse_url,
+           PREVIOUS_APP_OWNERS if args.baseline else APP_OWNERS)
 
 
 if __name__ == "__main__":

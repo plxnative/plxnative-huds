@@ -107,7 +107,7 @@ jobs:
           if [ "$PACKAGE" = __none__ ]; then
             echo '{"active_packages":0}' > out/previews/empty.json
           elif [ -f "out/previous/huds/$PACKAGE/manifest.json" ]; then
-            xvfb-run -a -s '-screen 0 1920x1080x24' python3 scripts/previews.py --root out/previous --packages out/previous-packages --out out/before --package "$PACKAGE" --reuse-url "$REUSE"
+            xvfb-run -a -s '-screen 0 1920x1080x24' python3 scripts/previews.py --root out/previous --baseline --packages out/previous-packages --out out/before --package "$PACKAGE" --reuse-url "$REUSE"
             xvfb-run -a -s '-screen 0 1920x1080x24' python3 scripts/previews.py --package "$PACKAGE" --reuse-url "$REUSE" --previous-packages out/previous-packages --previous-previews out/before
           else
             xvfb-run -a -s '-screen 0 1920x1080x24' python3 scripts/previews.py --package "$PACKAGE" --reuse-url "$REUSE"

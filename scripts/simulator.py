@@ -59,7 +59,13 @@ class SecureRedirect(urllib.request.HTTPRedirectHandler):
         return super().redirect_request(request, fp, code, message, headers, newurl)
 
 
-def validate_pin(pin: dict):
+# The app repository's owner. GLinnik21 owned it until it moved to the plxnative organization;
+# only the previous tree's pins, which a change is compared against, may still name that owner.
+APP_OWNERS = ("plxnative",)
+PREVIOUS_APP_OWNERS = ("plxnative", "GLinnik21")
+
+
+def validate_pin(pin: dict, owners=APP_OWNERS):
     release(pin["app_version"])
     for name, length in (("source_sha", 40), ("sha256", 64), ("manifest_sha256", 64)):
         if not isinstance(pin.get(name), str) or not re.fullmatch(f"[0-9a-f]{{{length}}}", pin[name]):
@@ -75,7 +81,7 @@ def validate_pin(pin: dict):
     url = urlsplit(pin.get("url", ""))
     parts = url.path.split("/")
     if (url.scheme != "https" or url.netloc != "github.com" or url.query or url.fragment
-        or len(parts) != 7 or parts[:5] != ["","GLinnik21","plx-native","releases","download"]
+        or len(parts) != 7 or parts[0] != "" or parts[1] not in owners or parts[2:5] != ["plx-native","releases","download"]
         or not all(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*",part) for part in parts[5:])
         or not parts[-1].endswith(".tar.gz")):
         # A textual prefix alone accepts /../ and encoded traversal into another repository.
@@ -83,13 +89,13 @@ def validate_pin(pin: dict):
         raise Invalid("simulator must come from a canonical app GitHub release-asset URL")
 
 
-def toolchains(root: Path) -> list[dict]:
+def toolchains(root: Path, owners=APP_OWNERS) -> list[dict]:
     config = read_json(root / "toolchains.json")
     if config.get("format") != 1 or not isinstance(config.get("simulators"), list):
         raise Invalid("toolchains.json must use format 1 and contain simulators")
     seen = set()
     for pin in config["simulators"]:
-        validate_pin(pin)
+        validate_pin(pin, owners)
         if pin["app_version"] in seen:
             raise Invalid("each app version needs exactly one immutable simulator pin")
         seen.add(pin["app_version"])

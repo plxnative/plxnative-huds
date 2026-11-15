@@ -94,7 +94,7 @@ class ReleasePipeline(unittest.TestCase):
         (self.cache/(digest+'.tar.gz')).write_bytes(archive.read_bytes())
         return {'protocol':1,'app_version':version,'source_sha':source,'supported_formats':FORMATS,'schemas':SCHEMAS,'limits':LIMITS,'development':development,
                 'sha256':digest,'manifest_sha256':hashlib.sha256((stage/'bundle.json').read_bytes()).hexdigest(),
-                'bytes':archive.stat().st_size,'url':'https://github.com/GLinnik21/plx-native/releases/download/v'+version+'/sim.tar.gz'}
+                'bytes':archive.stat().st_size,'url':'https://github.com/plxnative/plx-native/releases/download/v'+version+'/sim.tar.gz'}
 
     def test_original_sdk_authenticates_before_incompatible_current_sdk_reports_failure(self):
         original=self.release('0.10.0','a'*40,'clean',development=True)

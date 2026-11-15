@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from catalog import Invalid, canonical
 from test_bundles import FORMATS, SCHEMAS, LIMITS
 from releases import immutable
-from simulator import Simulator, extract, verify_bundle, toolchains
+from simulator import PREVIOUS_APP_OWNERS, Simulator, extract, verify_bundle, toolchains
 
 
 class Pinning(unittest.TestCase):
@@ -99,15 +99,22 @@ class Pinning(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory)
             pin={"protocol":1,"app_version":"0.10.0","source_sha":"a"*40,"sha256":"b"*64,"manifest_sha256":"c"*64,
-                 "supported_formats":FORMATS,"schemas":SCHEMAS,"limits":LIMITS,"bytes":1,"url":"https://github.com/GLinnik21/plx-native/releases/download/test/sim.tar.gz",
+                 "supported_formats":FORMATS,"schemas":SCHEMAS,"limits":LIMITS,"bytes":1,"url":"https://github.com/plxnative/plx-native/releases/download/test/sim.tar.gz",
                  "calibration":"calibration/measured.json"}
             def check(value):
                 (root / "toolchains.json").write_bytes(canonical({"format":1,"simulators":[value]}))
                 return toolchains(root)
             self.assertEqual(check(pin),[pin])
             for edit in ({"calibration":"../private"},{"url":"http://127.0.0.1/private"},{"sha256":"unpinned"},
-                         {"url":"https://github.com/GLinnik21/plx-native/releases/download/../../../../other/repo/releases/download/v1/sim.tar.gz"},
-                         {"url":"https://github.com/GLinnik21/plx-native/releases/download/%2e%2e/sim.tar.gz"},
+                         {"url":"https://github.com/plxnative/plx-native/releases/download/../../../../other/repo/releases/download/v1/sim.tar.gz"},
+                         {"url":"https://github.com/plxnative/plx-native/releases/download/%2e%2e/sim.tar.gz"},
                          {"url":pin["url"]+"?redirect=elsewhere"}):
                 with self.assertRaises(Invalid):
                     check({**pin,**edit})
+            legacy={**pin,"url":"https://github.com/GLinnik21/plx-native/releases/download/test/sim.tar.gz"}
+            with self.assertRaises(Invalid):
+                check(legacy)
+            (root / "toolchains.json").write_bytes(canonical({"format":1,"simulators":[legacy]}))
+            self.assertEqual(toolchains(root, PREVIOUS_APP_OWNERS),[legacy])
+            with self.assertRaises(Invalid):
+                check({**pin,"url":"https://github.com/someone/plx-native/releases/download/test/sim.tar.gz"})
