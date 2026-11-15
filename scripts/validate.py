@@ -11,7 +11,7 @@ import tempfile
 import zipfile
 
 from catalog import Invalid, canonical, check_update, oldest, read_json, revoked, sources, write_packages
-from simulator import PREVIOUS_APP_OWNERS, Simulator, acquire, toolchains
+from simulator import APP_OWNERS, PREVIOUS_APP_OWNERS, Simulator, acquire, toolchains
 from releases import immutable
 
 
@@ -86,12 +86,12 @@ def stock_package(package, validators):
                 raise Invalid(f"{package.id}: schema: {member}{pointer(error.absolute_path)}: {error.message}")
 
 
-def build_packages(root, cache, output, local=None, *, initial_baseline=False):
+def build_packages(root, cache, output, local=None, *, initial_baseline=False, owners=APP_OWNERS):
     candidates = sources(root, initial_baseline=initial_baseline)
     if not candidates:
         write_packages(output, [])
         return []
-    pins = toolchains(root)
+    pins = toolchains(root, owners)
     simulators = {}
     built = []
     output.mkdir(parents=True, exist_ok=True)
@@ -117,7 +117,7 @@ def validate(root: Path, cache: Path, previous: Path | None = None, local: Path 
         prior_sources = sources(previous, initial_baseline=True)
         if prior_sources:
             immutable(toolchains(previous, PREVIOUS_APP_OWNERS), pins)
-        before = build_packages(previous, cache, previous_output, local, initial_baseline=True)
+        before = build_packages(previous, cache, previous_output, local, initial_baseline=True, owners=PREVIOUS_APP_OWNERS)
     prior = {package.id: package for package in before}
     owners = read_json(root / "maintainers.json")
     for source in sources(root):
