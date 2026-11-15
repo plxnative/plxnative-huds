@@ -40,7 +40,7 @@ The SDK advertises the complete versioned limits, including the initial 2 MiB ar
    directory, add a README with attribution/contact, and register a GitHub contact in
    `maintainers.json` for compatibility notifications.
 3. Use the manifest and HUD schema mirrors for editor completion. Follow the public format
-   guide and the examples' shared theme and type rungs. [Format guide](https://github.com/GLinnik21/plx-native/blob/main/docs/hud-plugins.md)
+   guide and the examples' shared theme and type rungs. [Format guide](https://github.com/plxnative/plx-native/blob/main/docs/hud-plugins.md)
 4. On Ubuntu 24.04 x86_64, including a Linux VM or WSL, install Python 3.12 and the pinned
    `requirements.txt` in a virtual environment. Run `python3 scripts/validate.py`.
 5. Correct every native finding, including `HUD-W0602`. Findings identify a package member in

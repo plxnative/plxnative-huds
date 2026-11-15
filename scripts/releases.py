@@ -9,7 +9,7 @@ from calibrate import release_profile
 from catalog import Invalid, canonical, read_json, release
 from simulator import CONTRACT_KEYS, Simulator, acquire, toolchains, validate_pin, verify_bundle
 
-APP = "GLinnik21/plx-native"
+APP = "plxnative/plx-native"
 ARCHIVE = "plxnative-hud-simulator-linux-x86_64.tar.gz"
 PIN_ASSET = "plxnative-hud-simulator-linux-x86_64.tar.pin.json"
 

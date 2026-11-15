@@ -27,7 +27,7 @@ def metadata(ident="org.example.hud"):
 def pin(version="0.10.0"):
     return {"protocol": 1, "app_version": version, "source_sha": "a" * 40,
             "sha256": "b" * 64, "manifest_sha256": "c" * 64, "bytes": 100,
-            "url": f"https://github.com/GLinnik21/plx-native/releases/download/v{version}/sim.tar.gz",
+            "url": f"https://github.com/plxnative/plx-native/releases/download/v{version}/sim.tar.gz",
             "calibration": "calibration/measured.json", "supported_formats": FORMATS,
             "schemas": SCHEMAS, "limits": LIMITS}
 

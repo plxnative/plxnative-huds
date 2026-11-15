@@ -1,6 +1,6 @@
 # PlxNative Player HUD registry
 
-Declarative player layouts for [PlxNative](https://github.com/GLinnik21/plx-native).
+Declarative player layouts for [PlxNative](https://github.com/plxnative/plx-native).
 A source directory becomes one deterministic `.plxhud` bundle through the native SDK.
 Start with [AUTHORING.md](AUTHORING.md), [the manifest schema](schema/manifest/1.0.json), [the HUD schema](schema/hud/1.0.json) and an [example](examples/).
 

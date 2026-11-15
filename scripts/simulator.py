@@ -75,7 +75,7 @@ def validate_pin(pin: dict):
     url = urlsplit(pin.get("url", ""))
     parts = url.path.split("/")
     if (url.scheme != "https" or url.netloc != "github.com" or url.query or url.fragment
-        or len(parts) != 7 or parts[:5] != ["","GLinnik21","plx-native","releases","download"]
+        or len(parts) != 7 or parts[:5] != ["","plxnative","plx-native","releases","download"]
         or not all(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*",part) for part in parts[5:])
         or not parts[-1].endswith(".tar.gz")):
         # A textual prefix alone accepts /../ and encoded traversal into another repository.
