@@ -60,3 +60,28 @@ profile and exact host report are `913f7662…`. The existing `release_profile` 
 The profile records host source `017ff3a`, TV source `9266c34e7`, both report hashes, identical font
 identities and the current SDK renderer/type-scale identities. The original TV report is retained.
 Registry-native lint and captures are recorded separately in `IMPLEMENTATION.md` as they complete.
+
+## v0.10.0 remeasurement (2026-11-16)
+
+The published `v0.10.0` simulator (source `015868116287136757e456797754fd9a846d42b4`, manifest
+`4911fce1…`) grew the corpus from 12,276 to 13,608 rows: Catalan (`ca`, 1,134 rows) joined the
+shipped languages, and the new `watch.intro` label added 18 rows in each of the other eleven.
+No existing row's text or type size changed, and the font bytes are identical. Its caption renderer
+`pkg/libass-plx-host.so.0` changed (`789639d6…` to `bd5eee75…`), so no measured baseline matched
+for carrying margins, and `release_profile` correctly refused the release until fresh TV evidence
+existed.
+
+`tv-metrics.json` is now the native report from that exact source: the app CI debug package
+`com.beb.plxnative.debug_0.10.0_arm.ipk` (artifact `plxnative-0158681…` of
+[CI run 43245350897](https://github.com/plxnative/plx-native/actions/runs/43245350897)), installed
+on the same rooted LG development TV under the repository TV lock, its binary MD5 verified on the set,
+and booted with no injected token and only the `hud-text-metrics` trigger armed. The measurement
+runs before the frame loop; no account, server or mock is involved. The diagnostic reported
+`hud-text-metrics: wrote 13608 samples`. The TV's `libSDL2_ttf-2.0.so.0` SHA-256 is still
+`ab1dd4bd…3c42`. Debug builds report the next development version (`0.11.0-dev`); the report's
+`source_sha` is `0158681`.
+
+All 12,276 rows measured on source `9266c34e7` reproduce identical widths. Against the v0.10.0
+Linux report, `calibrate` covers all 13,608 rows in twelve languages and both weights and yields
+the same per-rung margins as the table above. The previous native report is retained as
+`9266c34e7.tv.json` (SHA-256 `dc2e1f38…`), which earlier profiles name as their `tv` evidence.
