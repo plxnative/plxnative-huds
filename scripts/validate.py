@@ -11,7 +11,7 @@ import tempfile
 import zipfile
 
 from catalog import Invalid, canonical, check_update, oldest, read_json, revoked, sources, write_packages
-from simulator import Simulator, acquire, toolchains
+from simulator import PREVIOUS_APP_OWNERS, Simulator, acquire, toolchains
 from releases import immutable
 
 
@@ -116,7 +116,7 @@ def validate(root: Path, cache: Path, previous: Path | None = None, local: Path 
     if previous is not None and (previous / "huds").is_dir():
         prior_sources = sources(previous, initial_baseline=True)
         if prior_sources:
-            immutable(toolchains(previous), pins)
+            immutable(toolchains(previous, PREVIOUS_APP_OWNERS), pins)
         before = build_packages(previous, cache, previous_output, local, initial_baseline=True)
     prior = {package.id: package for package in before}
     owners = read_json(root / "maintainers.json")

@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from catalog import Invalid, canonical
 from test_bundles import FORMATS, SCHEMAS, LIMITS
 from releases import immutable
-from simulator import Simulator, extract, verify_bundle, toolchains
+from simulator import PREVIOUS_APP_OWNERS, Simulator, extract, verify_bundle, toolchains
 
 
 class Pinning(unittest.TestCase):
@@ -111,3 +111,10 @@ class Pinning(unittest.TestCase):
                          {"url":pin["url"]+"?redirect=elsewhere"}):
                 with self.assertRaises(Invalid):
                     check({**pin,**edit})
+            legacy={**pin,"url":"https://github.com/GLinnik21/plx-native/releases/download/test/sim.tar.gz"}
+            with self.assertRaises(Invalid):
+                check(legacy)
+            (root / "toolchains.json").write_bytes(canonical({"format":1,"simulators":[legacy]}))
+            self.assertEqual(toolchains(root, PREVIOUS_APP_OWNERS),[legacy])
+            with self.assertRaises(Invalid):
+                check({**pin,"url":"https://github.com/someone/plx-native/releases/download/test/sim.tar.gz"})
