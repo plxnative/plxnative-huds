@@ -3,12 +3,18 @@
   "simulators": [
     {
       "app_version": "0.10.0",
-      "bytes": 39127843,
-      "calibration": "calibration/913f76629c24bbf27346b70deda1a9b24c1dc8a79366128e022abf5b46f407d3.json",
-      "development": true,
+      "bytes": 39845372,
+      "calibration": "calibration/4911fce16bb9f2e3134c96fda7bc1b639114fcf789adcf5e5062080abba68b4e.json",
+      "development": false,
       "limits": {
         "hud": {
           "1.0": {
+            "json_bytes": 1048576,
+            "json_decode_bytes": 16777216,
+            "svg_bytes": 16384,
+            "svg_paths": 8
+          },
+          "1.1": {
             "json_bytes": 1048576,
             "json_decode_bytes": 16777216,
             "svg_bytes": 16384,
@@ -27,25 +33,30 @@
           }
         }
       },
-      "manifest_sha256": "913f76629c24bbf27346b70deda1a9b24c1dc8a79366128e022abf5b46f407d3",
+      "manifest_sha256": "4911fce16bb9f2e3134c96fda7bc1b639114fcf789adcf5e5062080abba68b4e",
       "protocol": 1,
       "schemas": {
         "hud": {
-          "1.0": "https://plxnative.com/hud/schema/hud/1.0.json"
+          "1.0": "https://plxnative.com/hud/schema/hud/1.0.json",
+          "1.1": "https://plxnative.com/hud/schema/hud/1.1.json"
         },
         "manifest": {
           "1.0": "https://plxnative.com/hud/schema/manifest/1.0.json"
         }
       },
-      "sha256": "2636ee4f63a5cf2c5f1701ff5cb4af5e2a84abb80179e674da978587893167af",
-      "source_sha": "017ff3ad29443e5ecf47e7c3d3b93f4625cf5c2c",
+      "sha256": "8bc6aed08c40f498035e99618b0e05f7062c35ee7d2ca264098f1ae395843ceb",
+      "source_sha": "015868116287136757e456797754fd9a846d42b4",
       "supported_formats": [
         {
           "hud": "1.0",
           "package": "1.0"
+        },
+        {
+          "hud": "1.1",
+          "package": "1.0"
         }
       ],
-      "url": "https://github.com/plxnative/plx-native/releases/download/hud-simulator-017ff3ad29443e5ecf47e7c3d3b93f4625cf5c2c/plxnative-hud-simulator-linux-x86_64.tar.gz"
+      "url": "https://github.com/plxnative/plx-native/releases/download/v0.10.0/plxnative-hud-simulator-linux-x86_64.tar.gz"
     }
   ]
 }
