@@ -1579,6 +1579,25 @@
                 },
                 "class": "compact",
                 "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
                   "blended_px": 840915,
                   "draw_ops": 10,
                   "glyph_runs": 6,
@@ -1775,6 +1794,25 @@
                   "texture_bytes": 0
                 },
                 "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
                 "over": [],
                 "slot": "skip",
                 "state": "compact,movie"
@@ -2069,6 +2107,25 @@
                 },
                 "class": "compact",
                 "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
                   "blended_px": 840915,
                   "draw_ops": 10,
                   "glyph_runs": 6,
@@ -2265,6 +2322,25 @@
                   "texture_bytes": 0
                 },
                 "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
                 "over": [],
                 "slot": "skip",
                 "state": "compact"
