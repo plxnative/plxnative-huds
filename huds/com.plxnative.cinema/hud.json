@@ -21,13 +21,15 @@
       ], "chrome": "steady" },
       { "id": "row", "gap_before": "XS", "z": 1, "cells": [
         { "align": "center", "segment": { "id": "center", "gap": "LG", "items": [
-          { "id": "back", "command": "seek", "by": -10, "widget": "disc", "size": 52,
+          { "id": "audio", "command": "open_tracks", "tab": "audio", "widget": "disc", "size": 52,
+            "rest": "bare", "focus": "accent", "face": "audio" },
+          { "id": "back", "command": "seek", "when": "!title.is_episode", "by": -10, "widget": "disc", "size": 52,
             "rest": "bare", "focus": "accent", "face": "back10" },
-          { "id": "prev", "command": "previous", "widget": "disc", "size": 52, "rest": "bare", "focus": "accent",
+          { "id": "prev", "command": "previous", "when": "title.is_episode", "widget": "disc", "size": 52, "rest": "bare", "focus": "accent",
             "face": { "default": "builtin:previous", "restart": "builtin:previous" } },
           { "id": "play", "command": "toggle_play", "widget": "disc", "size": 64, "rest": "solid", "focus": "ring",
             "face": { "playing": "builtin:pause", "paused": "builtin:play" } },
-          { "id": "next", "command": "next", "widget": "disc", "size": 52, "rest": "bare", "focus": "accent",
+          { "id": "next", "command": "next", "when": "title.is_episode", "widget": "disc", "size": 52, "rest": "bare", "focus": "accent",
             "face": "builtin:next" },
           { "id": "fwd", "command": "seek", "by": 30, "widget": "disc", "size": 52,
             "rest": "bare", "focus": "accent", "face": "fwd30" }
