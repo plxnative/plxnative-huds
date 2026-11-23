@@ -1,6 +1,4261 @@
 {
   "format": 1,
   "packages": {
+    "0bda05b0867ed113c7426853f784a592ec703d4a181eba0816ac8707b2239e07": {
+      "checks": {
+        "0.10.0": {
+          "all_failed": false,
+          "langs": [],
+          "nontext": false,
+          "report": {
+            "costs": [
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 12,
+                  "glyph_runs": 4,
+                  "texture_bytes": 92096
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 54,
+                  "glyph_runs": 25,
+                  "texture_bytes": 737856
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 19,
+                  "glyph_runs": 11,
+                  "texture_bytes": 283648
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 61,
+                  "glyph_runs": 32,
+                  "texture_bytes": 821888
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 12,
+                  "glyph_runs": 4,
+                  "texture_bytes": 92096
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 54,
+                  "glyph_runs": 25,
+                  "texture_bytes": 737856
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 19,
+                  "glyph_runs": 11,
+                  "texture_bytes": 283648
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 61,
+                  "glyph_runs": 32,
+                  "texture_bytes": 821888
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 11,
+                  "glyph_runs": 4,
+                  "texture_bytes": 81280
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 53,
+                  "glyph_runs": 25,
+                  "texture_bytes": 727040
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 18,
+                  "glyph_runs": 11,
+                  "texture_bytes": 272832
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 60,
+                  "glyph_runs": 32,
+                  "texture_bytes": 811072
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 13,
+                  "glyph_runs": 4,
+                  "texture_bytes": 102912
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 748672
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 20,
+                  "glyph_runs": 11,
+                  "texture_bytes": 294464
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 832704
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,real-episode"
+              }
+            ],
+            "file": ".cache/published-packages/0bda05b0867ed113c7426853f784a592ec703d4a181eba0816ac8707b2239e07.plxhud",
+            "findings": [],
+            "package_sha256": "0bda05b0867ed113c7426853f784a592ec703d4a181eba0816ac8707b2239e07",
+            "protocol": 1
+          }
+        },
+        "0.10.1": {
+          "all_failed": false,
+          "langs": [],
+          "nontext": false,
+          "report": {
+            "costs": [
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 12,
+                  "glyph_runs": 4,
+                  "texture_bytes": 92096
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 54,
+                  "glyph_runs": 25,
+                  "texture_bytes": 737856
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 19,
+                  "glyph_runs": 11,
+                  "texture_bytes": 283648
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 61,
+                  "glyph_runs": 32,
+                  "texture_bytes": 821888
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,movie,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 12,
+                  "glyph_runs": 4,
+                  "texture_bytes": 92096
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 54,
+                  "glyph_runs": 25,
+                  "texture_bytes": 737856
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 19,
+                  "glyph_runs": 11,
+                  "texture_bytes": 283648
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 61,
+                  "glyph_runs": 32,
+                  "texture_bytes": 821888
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,not-real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 11,
+                  "glyph_runs": 4,
+                  "texture_bytes": 81280
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 53,
+                  "glyph_runs": 25,
+                  "texture_bytes": 727040
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 18,
+                  "glyph_runs": 11,
+                  "texture_bytes": 272832
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 60,
+                  "glyph_runs": 32,
+                  "texture_bytes": 811072
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,movie,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 804307,
+                  "draw_ops": 13,
+                  "glyph_runs": 4,
+                  "texture_bytes": 102912
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1166611,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 748672
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1395492,
+                  "draw_ops": 55,
+                  "glyph_runs": 25,
+                  "texture_bytes": 1306368
+                },
+                "class": "one-section",
+                "cost": {
+                  "blended_px": 1168915,
+                  "draw_ops": 20,
+                  "glyph_runs": 11,
+                  "texture_bytes": 294464
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "info,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 836435,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839059,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842323,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 839443,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 840915,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845523,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 838675,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 842643,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 847827,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 844115,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 849939,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 845651,
+                  "draw_ops": 10,
+                  "glyph_runs": 6,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "up_next",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 818963,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "en",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 824851,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "es",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827539,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "be",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ca",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825299,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "fr",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823571,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "it",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 823315,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pt",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828115,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "de",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825235,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "hu",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 827667,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "ru",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 828371,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "pl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 985088,
+                  "draw_ops": 13,
+                  "glyph_runs": 9,
+                  "texture_bytes": 256120
+                },
+                "class": "compact",
+                "cost": {
+                  "blended_px": 825363,
+                  "draw_ops": 5,
+                  "glyph_runs": 5,
+                  "texture_bytes": 0
+                },
+                "lang": "nl",
+                "over": [],
+                "slot": "skip",
+                "state": "compact,real-episode"
+              },
+              {
+                "ceiling": {
+                  "blended_px": 1592851,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 970944
+                },
+                "class": "two-sections",
+                "cost": {
+                  "blended_px": 1504339,
+                  "draw_ops": 62,
+                  "glyph_runs": 32,
+                  "texture_bytes": 832704
+                },
+                "over": [],
+                "slot": "discs",
+                "state": "chapters+info,real-episode"
+              }
+            ],
+            "file": ".cache/published-packages/0bda05b0867ed113c7426853f784a592ec703d4a181eba0816ac8707b2239e07.plxhud",
+            "findings": [],
+            "package_sha256": "0bda05b0867ed113c7426853f784a592ec703d4a181eba0816ac8707b2239e07",
+            "protocol": 1
+          }
+        }
+      },
+      "unfit": []
+    },
     "783ebc8d98659083104e98a06731ed5e33d3ba8b2259070a95a2d6bfd7673aec": {
       "checks": {
         "0.10.0": {
