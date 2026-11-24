@@ -57,6 +57,63 @@
         }
       ],
       "url": "https://github.com/plxnative/plx-native/releases/download/v0.10.0/plxnative-hud-simulator-linux-x86_64.tar.gz"
+    },
+    {
+      "app_version": "0.10.1",
+      "bytes": 39846434,
+      "calibration": "calibration/cf834e86df65a8856f16319db7a8daa3d72580b82c89abc3277906760a0e8b50.json",
+      "development": false,
+      "limits": {
+        "hud": {
+          "1.0": {
+            "json_bytes": 1048576,
+            "json_decode_bytes": 16777216,
+            "svg_bytes": 16384,
+            "svg_paths": 8
+          },
+          "1.1": {
+            "json_bytes": 1048576,
+            "json_decode_bytes": 16777216,
+            "svg_bytes": 16384,
+            "svg_paths": 8
+          }
+        },
+        "package": {
+          "1.0": {
+            "artifact_bytes": 2097152,
+            "central_directory_bytes": 65536,
+            "entries": 128,
+            "manifest_bytes": 65536,
+            "member_bytes": 1048576,
+            "path_bytes": 128,
+            "path_depth": 8
+          }
+        }
+      },
+      "manifest_sha256": "cf834e86df65a8856f16319db7a8daa3d72580b82c89abc3277906760a0e8b50",
+      "protocol": 1,
+      "schemas": {
+        "hud": {
+          "1.0": "https://plxnative.com/hud/schema/hud/1.0.json",
+          "1.1": "https://plxnative.com/hud/schema/hud/1.1.json"
+        },
+        "manifest": {
+          "1.0": "https://plxnative.com/hud/schema/manifest/1.0.json"
+        }
+      },
+      "sha256": "f0367772b5629a419c975058664bb8692821bf89d68111614663ffb11e9290c3",
+      "source_sha": "7b16697ca0a2875a329464aa463195daf137eaf6",
+      "supported_formats": [
+        {
+          "hud": "1.0",
+          "package": "1.0"
+        },
+        {
+          "hud": "1.1",
+          "package": "1.0"
+        }
+      ],
+      "url": "https://github.com/plxnative/plx-native/releases/download/v0.10.1/plxnative-hud-simulator-linux-x86_64.tar.gz"
     }
   ]
 }
